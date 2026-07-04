@@ -1,0 +1,23 @@
+{
+  "platforms": {
+    "epic": {
+      "enabled": true,
+      "auto_sync": true,
+      "sync_interval_hours": 24
+    },
+    "steam": {
+      "enabled": false,
+      "api_key": ""
+    },
+    "gog": {
+      "enabled": false
+    }
+  },
+  "metadata": {
+    "provider": "rawg",
+    "api_key": "your-rawg-api-key",
+    "cache_ttl_days": 30
+  },
+  "library_path": "~/Games",
+  "token_storage_type": "system_keychain"
+}

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "AIPickMyGame Sync",
+  "version": "0.1.0",
+  "description": "自动同步 Epic Games、Steam 等游戏平台库到 AIPickMyGame MCP Server",
+  "permissions": [
+    "cookies",
+    "storage",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "*://*.epicgames.com/*",
+    "*://*.steampowered.com/*",
+    "*://*.gog.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.epicgames.com/id/library*"],
+      "js": ["epic-content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AIPickMyGame Sync"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
