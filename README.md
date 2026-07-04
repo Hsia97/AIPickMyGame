@@ -344,5 +344,7 @@ python verify_setup.py  # 验证项目结构
 
 ## 许可证
 
-MIT License
+MIT License — 详见 [LICENSE](LICENSE) 文件。
+
+Copyright (c) 2026 Hsia97
 
