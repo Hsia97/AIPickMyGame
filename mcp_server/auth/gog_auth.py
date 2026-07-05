@@ -11,7 +11,7 @@ GOG Games 认证管理器
 
 import time
 import webbrowser
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 from urllib.parse import urlparse, parse_qs
 
 import httpx

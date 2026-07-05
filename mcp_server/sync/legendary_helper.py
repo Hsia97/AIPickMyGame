@@ -7,7 +7,6 @@ Legendary Helper
 - 获取游戏元数据
 """
 
-import os
 import json
 import logging
 from typing import List, Dict, Any, Optional

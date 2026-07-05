@@ -6,16 +6,12 @@ MCP Server 主入口
 
 from fastmcp import FastMCP
 from typing import List, Optional, Dict, Any
-import asyncio
-import json
-from pathlib import Path
 
 from .auth.epic_auth import EpicAuthManager
 from .auth.gog_auth import GOGAuthManager
 from .sync.library_syncer import LibrarySyncer
 from .recommend.engine import GameLibraryProcessor
 from .metadata.rawg_client import format_display_name
-from .storage.token_storage import EncryptedTokenStorage
 from .config import AppConfig
 
 # 创建 MCP 服务器实例

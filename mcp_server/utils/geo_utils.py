@@ -4,7 +4,6 @@
 判断当前运行环境是否在中国大陆，用于决定元数据获取策略。
 """
 
-import asyncio
 import httpx
 
 

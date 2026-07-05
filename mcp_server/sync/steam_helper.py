@@ -9,7 +9,7 @@ API Key 申请: https://steamcommunity.com/dev/apikey
 SteamID64 查询: https://steamid.io 或个人资料 URL
 """
 
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 from datetime import datetime
 
 import httpx

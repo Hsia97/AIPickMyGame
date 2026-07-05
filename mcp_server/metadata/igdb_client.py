@@ -16,7 +16,7 @@ IGDB 提供免费 API，国内部分 ISP 可直连（无需代理）。
 
 import time
 import httpx
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional
 
 
 class IGDBClient:
