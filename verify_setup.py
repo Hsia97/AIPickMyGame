@@ -26,10 +26,6 @@ def check_project_structure():
         "mcp_server/recommend/engine.py",
         "mcp_server/storage/__init__.py",
         "mcp_server/storage/token_storage.py",
-        "mcp_server/storage/library_cache.py",
-        "browser-extension/manifest.json",
-        "browser-extension/background.js",
-        "browser-extension/epic-content.js",
         "requirements.txt",
         "README.md",
     ]
